@@ -5,6 +5,7 @@
         <!-- Title -->
         <div class="row heading-bg">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <h5 class="txt-dark">Page Model |
                       @if (isset($route_parameters->arg2) AND ($route_parameters->arg2 === strtolower(@CMS_FORMS_ACTIONS_ADD)))
                       <span style="font-size:12pt;" class=" text-success"><i class="fa fa-plus-square"></i> {{@CMS_FORMS_ACTIONS_ADD}}</span>
