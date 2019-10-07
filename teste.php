@@ -13,6 +13,15 @@
                       @endif
                  </h5>
             </div>
+            @if(1 == 1)
+                <div>
+                    Teste 1 = 1
+                </div>
+            @elseif (1 != 1)
+                <div>
+                    Teste 1 != 1
+                </div>
+            @endif
             <!-- Breadcrumb -->
             <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                 <ol class="breadcrumb">
